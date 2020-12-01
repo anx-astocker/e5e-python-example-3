@@ -1,3 +1,5 @@
+import time
+
 from mydata import *
 
 
@@ -17,6 +19,8 @@ def call_stack_4():
     print(TEXT_1)
     print(TEXT_2)
     print(TEXT_3)
+
+    time.sleep(1000)
 
     raise RuntimeError("Fail…")
 
